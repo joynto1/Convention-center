@@ -1,0 +1,51 @@
+.hot {
+    position: relative;
+    margin-left: 210px;
+    right: 30px;
+    top: -15px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 50px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.icons_hot i {
+    color: aliceblue;
+}
+
+.icons_hot {
+    color: white;
+}
+
+.icons {
+    color: gray;
+    font-weight: 500;
+}
+
+p {
+
+    color: gray;
+    font-weight: 500;
+
+}
+
+.scrol_para {
+    color: gray;
+    font-weight: 500;
+}
+
+.album {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+h5.job_title {
+    color: gray;
+}
+
+footer {
+    background-color: rgb(16, 16, 46);
+    padding: 50px;
+}
