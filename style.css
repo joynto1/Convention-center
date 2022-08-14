@@ -17,10 +17,6 @@ button a {
 }
 
 .toast {
-
-
-    margin-top: 50px;
-    margin-left: 800px;
     border: none;
     border-left: 10px solid rgb(66, 80, 206);
 }
