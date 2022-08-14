@@ -2,12 +2,27 @@
     position: relative;
     margin-left: 210px;
     right: 30px;
+    width: 70px;
     top: -15px;
     background-color: red;
     color: aliceblue;
     border-radius: 50px;
     padding: 5px;
     font-weight: bold;
+    text-align: center;
+}
+
+button a {
+    text-decoration: none;
+}
+
+.toast {
+
+
+    margin-top: 50px;
+    margin-left: 800px;
+    border: none;
+    border-left: 10px solid rgb(66, 80, 206);
 }
 
 .icons_hot i {
