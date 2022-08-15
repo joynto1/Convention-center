@@ -13,9 +13,9 @@
 
 <body>
 
-    <header class="pb-3 pt-5" id="home">
+    <header class="pb-3 " id="home">
         <div>
-            <nav class="navbar navbar-expand-lg bg-light p-3 fixed-top">
+            <nav class="navbar navbar-expand-lg bg-light p-lg-3   ">
                 <div class="container d-lg-flex justify-content-between">
                     <div><a class="navbar-brand fw-bold" href="#home">Joy Convention Center</a></div>
                     <div>
@@ -50,7 +50,7 @@
                 </div>
             </nav>
         </div>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -59,17 +59,18 @@
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1 class="fw-bold  ">WELCOME TO <br> <span class="text-info border-inline "> JOY CONVENTION
-                                CENTER</span>
+            <div class="carousel-inner ">
+                <div class="carousel-item active  ">
+                    <img src="images/banner.png" class="d-block w-100  " alt="...">
+                    <div class="carousel-caption  d-md-block">
+                        <h1 class="fw-bold fs-3 fs-lg-5 name_show ">WELCOME TO <br> <span
+                                class="text-info border-inline text-none ">
+                                JOY CONVENTION CENTER</span>
                         </h1>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua <br>
+                        <p class="d-none d-lg-block">Amet minim mollit non deserunt ullamco est sit aliqua <br>
                             dolor do amet sint. Velit officia consequat duis enim velit </p>
-                        <div class="p-3"> <button class="btn bg-white text-primary fw-bold ps-4 pe-4"> <a
-                                    target="_blank" href="https://planning.wedding/">BooK NoW</a> </button>
+                        <div class="p-lg-3"> <button class="book_btn btn bg-white text-primary fw-bold ps-lg-4 pe-lg-4">
+                                <a target="_blank" href="https://planning.wedding/">BooK NoW</a> </button>
                         </div>
                     </div>
                 </div>
@@ -389,23 +390,27 @@
     </main>
     <footer>
         <section class="footer">
-            <div class="container d-lg-flex justify-content-between align-items-center text-center">
-                <div>
-                    <small class="text-white">© 2020 bike. All rights reserved</small>
+            <div class="container d-flex justify-content-between align-items-center  ">
+                <div class="text-start pe-5">
+                    <div class="footer_menu fw-bold "><a href="" id="home"> Home</a></div>
+                    <div class="footer_menu fw-bold "><a href="">Contacts</a></div>
+                    <div class="footer_menu fw-bold "><a href="">Abouts</a></div>
                 </div>
-                <div class="text-center text-white">
+                <div class="text-white ps-5 text-center">
                     <h5>Get the App</h5>
-                    <div class=" p-2"><a target="_blank"
+                    <div><a target="_blank"
                             href="https://play.google.com/store/apps/details?id=com.tencent.ig&gl=US"><img
                                 class="w-25 rounded " src="images/android.jpeg" alt=""></a>
                     </div>
-                    <div class="p-1"><a target="_blank"
-                            href="https://apps.apple.com/us/app/pubg-mobile/id1330123889"><img class="w-25 rounded "
-                                src="images/apple.jpeg" alt=""></a>
+                    <div><a target="_blank" href="https://apps.apple.com/us/app/pubg-mobile/id1330123889"><img
+                                class="w-25 rounded " src="images/apple.jpeg" alt=""></a>
                     </div>
                 </div>
             </div>
         </section>
+        <div class="text-center p-3 ">
+            <small class="text-white pe-3 ">© 2020 bike. All rights reserved</small>
+        </div>
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>

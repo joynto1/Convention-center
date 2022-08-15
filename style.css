@@ -12,9 +12,35 @@
     text-align: center;
 }
 
+button.book_btn {
+    border: none;
+}
+
+button.book_btn:hover a {
+
+    color: rgb(14, 230, 111);
+    padding: 20px 10px;
+    transition: .5s;
+}
+
+.footer_menu:hover a {
+    color: aqua;
+    transition: .5s;
+}
+
+.footer_menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+
+
 button a {
     text-decoration: none;
 }
+
+
 
 .toast {
     border: none;
